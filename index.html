@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Leonardo Rodrigues — Desenvolvedor Full Stack</title>
+    <meta name="description" content="Portfólio de João Silva — Desenvolvedor Full Stack" />
+    <script src="https://kit.fontawesome.com/9ca5555edc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="nav" role="navigation">
+        <div class="container nav-inner">
+            <a class="brand" href="#home"><span class="gt">&lt;</span><span>Dev</span><span class="gt">/&gt;</span></a>
+
+            <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+                ☰
+            </button>
+
+            <div id="nav-menu" class="nav-menu">
+                <a href="#home">Início</a>
+                <a href="#about">Sobre</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projetos</a>
+                <a href="#contact" class="cta">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header id="home" class="hero">
+        <div class="container hero-inner">
+            <div class="status">● Disponível para projetos</div>
+            <h1>Olá, eu sou <span class="name">Leonardo Rodrigues</span></h1>
+            <p class="lead">
+                Desenvolvedor Full Stack apaixonado por criar <strong>experiências digitais incríveis</strong>
+                e <strong>soluções inovadoras</strong>.
+            </p>
+
+            <pre class="code-snippet" aria-hidden="true">
+<span class="const">const</span> <span class="const-name">developer</span> = {
+    skills: <span class="values">["Python", "Django", "JavaScript"]</span>,
+    passion: <span class="values">"Criar soluções"</span>
+};
+            </pre>
+
+            <div class="hero-ctas">
+                <a href="#projects" class="btn primary">Ver Projetos</a>
+                <a href="#contact" class="btn outline">Fale Comigo</a>
+            </div>
+
+            <div class="socials">
+                <a href="https://github.com/leonhardc" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-github"></i>
+                    <!-- Github -->
+                </a>
+                <a href="https://www.linkedin.com/in/leonardorcost/" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <!-- Linkedin -->
+                </a>
+                <a href="mailto:costa.leonardorodrigues@gmail.com">
+                    <i class="fa-regular fa-message"></i>
+                    <!-- Email -->
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about container">
+        <div class="about-grid">
+            <div class="about-visual">
+                <div class="terminal-mock">
+                    <div class="term-dots">
+                        <span class="dot a"></span><span class="dot b"></span><span class="dot c"></span>
+                    </div>
+                    <pre class="whoami">
+<span class="command">$</span> cat whoami.txt
+<span class="command-result">Leonardo Rodrigues - Full Stack Developer</span>
+
+<span class="command">$</span> cat skills.txt
+<span class="command-result">Node.js, JavaScript, Python...</span>
+
+<span class="command">$</span> cat hobbies.txt
+<span class="command-result">Código, Café, Games, Música</span>
+
+<span class="command">$</span> <span class="cursor">_</span> 
+                    </pre>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <span class="muted">// sobre mim</span>
+                <h2>Transformando <span class="accent">ideias</span> em código</h2>
+                <p>
+                    Sou um desenvolvedor Full Stack com mais de 3 anos de experiência criando aplicações web modernas e
+                    escaláveis.
+                    Minha paixão é resolver problemas complexos com soluções elegantes e eficientes.
+                </p>
+
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-value">3+</div>
+                        <div class="stat-label">Anos de Experiência</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">40+</div>
+                        <div class="stat-label">Projetos Feitos</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">∞</div>
+                        <div class="stat-label">Xícaras de Café</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills container">
+        <div class="section-header">
+            <span class="muted">// habilidades</span>
+            <h2>Tech <span class="accent">Stack</span></h2>
+            <p class="muted">Tecnologias e ferramentas que utilizo para transformar ideias em realidade</p>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>
+                    <i class="fa-solid fa-code"></i>
+                    Frontend
+                </h3>
+                <div class="skill">
+                    <div class="skill-name">
+                        <P>HTML</P>
+                    </div>
+                    <div class="skill-bar">
+                        <div style="width:95%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">CSS</div>
+                    <div class="skill-bar">
+                        <div style="width:80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-bar">
+                        <div style="width:85%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>
+                    <i class="fa-solid fa-hashtag"></i>
+                    Backend
+                </h3>
+                <div class="skill">
+                    <div class="skill-name">Python</div>
+                    <div class="skill-bar">
+                        <div style="width:90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Django</div>
+                    <div class="skill-bar">
+                        <div style="width:80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Node</div>
+                    <div class="skill-bar">
+                        <div style="width:65%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    Ferramentas
+                </h3>
+                <div class="skill">
+                    <div class="skill-name">Git</div>
+                    <div class="skill-bar">
+                        <div style="width:80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Docker</div>
+                    <div class="skill-bar">
+                        <div style="width:60%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">AWS</div>
+                    <div class="skill-bar">
+                        <div style="width:55%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects container">
+        <div class="section-header">
+            <span class="muted">// projetos</span>
+            <h2>Trabalhos <span class="accent">Recentes</span></h2>
+            <p class="muted">Uma seleção dos projetos mais relevantes que desenvolvi</p>
+        </div>
+
+        <div class="projects-grid">
+            <article class="project featured">
+                <div class="project-media"><i class="fa-regular fa-folder"></i></div>
+                <div class="project-body">
+                    <h3>E-Commerce Platform</h3>
+                    <p>Plataforma completa de e-commerce com carrinho, pagamentos e painel admin.</p>
+                    <div class="tags"><span>Python</span><span>Django</span><span>JavaScript</span></div>
+                    <div class="project-links">
+                        <a href="https://github.com" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i>
+                            GitHub
+                        </a>
+                        <!-- <a href="https://example.com" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-link"></i>
+                            Live
+                        </a> -->
+                    </div>
+                </div>
+            </article>
+            <article class="project featured">
+                <div class="project-media"><i class="fa-regular fa-folder"></i></div>
+                <div class="project-body">
+                    <h3>Games Info</h3>
+                    <p>Aplicação para consulta de games com dados reais sobre os mais variados tipos de games.</p>
+                    <div class="tags"><span>Django</span><span>Python</span><span>JavaScript</span></div>
+                    <div class="project-links">
+                        <a href="https://github.com" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i>
+                            GitHub
+                        </a>
+                        <!-- <a href="https://example.com" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-link"></i>
+                            Live
+                        </a> -->
+                    </div>
+                </div>
+            </article>
+            <article class="project featured">
+                <div class="project-media"><i class="fa-regular fa-folder"></i></div>
+                <div class="project-body">
+                    <h3>Biblioteca Acadêmica</h3>
+                    <p>Um sistema de gerenciamento de uma biblioteca acadêmica com livros, autores, consultas
+                        reservas emprestimos e muito mais.</p>
+                    <div class="tags"><span>Django</span><span>Python</span><span>JavaScript</span></div>
+                    <div class="project-links">
+                        <a href="https://github.com" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i>
+                            GitHub
+                        </a>
+                        <!-- <a href="https://example.com" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-link"></i>
+                            Live
+                        </a> -->
+                    </div>
+                </div>
+            </article>
+
+            <!-- <article class="project">
+                <h3>Task Management App</h3>
+                <p>Aplicação de gerenciamento de tarefas com drag-and-drop e colaboração em tempo real.</p>
+                <div class="tags"><span>Next.js</span><span>TypeScript</span></div>
+            </article>
+
+            <article class="project">
+                <h3>AI Chat Assistant</h3>
+                <p>Chatbot inteligente com integração GPT e histórico de conversas.</p>
+                <div class="tags"><span>React</span><span>Python</span></div>
+            </article>
+            <article class="project">
+                <h3>AI Chat Assistant</h3>
+                <p>Chatbot inteligente com integração GPT e histórico de conversas.</p>
+                <div class="tags"><span>React</span><span>Python</span></div>
+            </article> -->
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact container">
+        <div class="section-header">
+            <span class="muted">// contato</span>
+            <h2>Vamos <span class="accent">Conversar</span></h2>
+            <p class="muted">Tem um projeto em mente? Adoraria ouvir sobre ele. Me envie uma mensagem!</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h3>Informações de Contato</h3>
+                <p><strong>Email:</strong> <a href="mailto:joao@email.com">costa.leonardorodrigues@gmail.com</a></p>
+                <p><strong>Localização:</strong> Viçosa do Ceará, CE, Brasil</p>
+
+                <h4>Me encontre nas redes</h4>
+                <div class="socials">
+                    <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+                </div>
+
+                <div class="availability">
+                    <span class="dot available"></span> Disponível para novos projetos
+                </div>
+            </div>
+
+            <form id="contact-form" class="contact-form" novalidate>
+                <label>
+                    Nome
+                    <input type="text" name="name" required placeholder="Seu nome" />
+                </label>
+
+                <label>
+                    Email
+                    <input type="email" name="email" required placeholder="seu@email.com" />
+                </label>
+
+                <label>
+                    Mensagem
+                    <textarea name="message" rows="6" required placeholder="Conte-me sobre seu projeto..."></textarea>
+                </label>
+
+                <button type="submit" class="btn primary">Enviar Mensagem</button>
+                <div id="form-status" class="form-status" aria-live="polite"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="copyright">© <span id="year"></span> Leonardo Rodrigues. Todos os direitos reservados.</div>
+            <div class="made">Feito com ♥ e muito código</div>
+        </div>
+    </footer>
+
+    <!-- Script (criaremos em seguida) -->
+    <script src="app.js" defer></script>
+</body>
+
+</html>
