@@ -35,7 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // Fill current year in footer
   const yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
-
+  // Chama a função getAllDataWidths quando a página carregar
+  getAllDataWidths();
   // Contact form handling (simulado)
   const form = document.getElementById('contact-form');
   const status = document.getElementById('form-status');
@@ -124,3 +125,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 });
+
+function getAllDataWidths() {
+  const skills = document.querySelectorAll('.skill');
+  for (const skill of skills) {
+    console.log(getDataWidth(skill));
+    const widthSkill = getDataWidth(skill);
+    skill.setAttribute('data-width', widthSkill);
+  }
+}
+
+function getDataWidth(element) {
+  return element.querySelector('.skill-bar > div').style.width;
+}

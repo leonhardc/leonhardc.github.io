@@ -134,7 +134,7 @@
                     <i class="fa-solid fa-code"></i>
                     Frontend
                 </h3>
-                <div class="skill">
+                <div class="skill" data-width="">
                     <div class="skill-name">
                         <P>HTML</P>
                     </div>
@@ -142,13 +142,13 @@
                         <div style="width:95%"></div>
                     </div>
                 </div>
-                <div class="skill">
+                <div class="skill" data-width="">
                     <div class="skill-name">CSS</div>
                     <div class="skill-bar">
                         <div style="width:80%"></div>
                     </div>
                 </div>
-                <div class="skill">
+                <div class="skill" data-width="">
                     <div class="skill-name">JavaScript</div>
                     <div class="skill-bar">
                         <div style="width:85%"></div>
@@ -161,19 +161,19 @@
                     <i class="fa-solid fa-hashtag"></i>
                     Backend
                 </h3>
-                <div class="skill">
+                <div class="skill" data-width="">
                     <div class="skill-name">Python</div>
                     <div class="skill-bar">
                         <div style="width:90%"></div>
                     </div>
                 </div>
-                <div class="skill">
+                <div class="skill" data-width="">
                     <div class="skill-name">Django</div>
                     <div class="skill-bar">
                         <div style="width:80%"></div>
                     </div>
                 </div>
-                <div class="skill">
+                <div class="skill" data-width="">
                     <div class="skill-name">Node</div>
                     <div class="skill-bar">
                         <div style="width:65%"></div>
@@ -186,19 +186,19 @@
                     <i class="fa-solid fa-screwdriver-wrench"></i>
                     Ferramentas
                 </h3>
-                <div class="skill">
+                <div class="skill" data-width="">
                     <div class="skill-name">Git</div>
                     <div class="skill-bar">
                         <div style="width:80%"></div>
                     </div>
                 </div>
-                <div class="skill">
+                <div class="skill" data-width="">
                     <div class="skill-name">Docker</div>
                     <div class="skill-bar">
                         <div style="width:60%"></div>
                     </div>
                 </div>
-                <div class="skill">
+                <div class="skill" data-width="">
                     <div class="skill-name">AWS</div>
                     <div class="skill-bar">
                         <div style="width:55%"></div>
@@ -224,14 +224,14 @@
                     <p>Plataforma completa de e-commerce com carrinho, pagamentos e painel admin.</p>
                     <div class="tags"><span>Python</span><span>Django</span><span>JavaScript</span></div>
                     <div class="project-links">
-                        <a href="https://github.com" target="_blank" rel="noopener">
+                        <a href="https://github.com/leonhardc/ecomerce-django" target="_blank" rel="noopener">
                             <i class="fa-brands fa-github"></i>
                             GitHub
                         </a>
-                        <!-- <a href="https://example.com" target="_blank" rel="noopener">
+                        <a href="#" target="_blank" rel="noopener">
                             <i class="fa-solid fa-link"></i>
                             Live
-                        </a> -->
+                        </a>
                     </div>
                 </div>
             </article>
@@ -242,14 +242,14 @@
                     <p>Aplicação para consulta de games com dados reais sobre os mais variados tipos de games.</p>
                     <div class="tags"><span>Django</span><span>Python</span><span>JavaScript</span></div>
                     <div class="project-links">
-                        <a href="https://github.com" target="_blank" rel="noopener">
+                        <a href="https://github.com/leonhardc/freetogameapi-django" target="_blank" rel="noopener">
                             <i class="fa-brands fa-github"></i>
                             GitHub
                         </a>
-                        <!-- <a href="https://example.com" target="_blank" rel="noopener">
+                        <a href="#" target="_blank" rel="noopener">
                             <i class="fa-solid fa-link"></i>
                             Live
-                        </a> -->
+                        </a>
                     </div>
                 </div>
             </article>
@@ -261,14 +261,14 @@
                         reservas emprestimos e muito mais.</p>
                     <div class="tags"><span>Django</span><span>Python</span><span>JavaScript</span></div>
                     <div class="project-links">
-                        <a href="https://github.com" target="_blank" rel="noopener">
+                        <a href="https://github.com/leonhardc/biblioteca" target="_blank" rel="noopener">
                             <i class="fa-brands fa-github"></i>
                             GitHub
                         </a>
-                        <!-- <a href="https://example.com" target="_blank" rel="noopener">
+                        <a href="#" target="_blank" rel="noopener">
                             <i class="fa-solid fa-link"></i>
                             Live
-                        </a> -->
+                        </a>
                     </div>
                 </div>
             </article>
@@ -302,19 +302,51 @@
 
         <div class="contact-grid">
             <div class="contact-info">
-                <h3>Informações de Contato</h3>
-                <p><strong>Email:</strong> <a href="mailto:joao@email.com">costa.leonardorodrigues@gmail.com</a></p>
-                <p><strong>Localização:</strong> Viçosa do Ceará, CE, Brasil</p>
+                <div class="contact-card">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="contact-detail">
+                            <span class="label">Email</span>
+                            <a href="mailto:costa.leonardorodrigues@gmail.com">costa.leonardorodrigues@gmail.com</a>
+                        </div>
+                    </div>
 
-                <h4>Me encontre nas redes</h4>
-                <div class="socials">
-                    <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
-                    <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
-                </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="contact-detail">
+                            <span class="label">Localização</span>
+                            <p>Viçosa do Ceará, CE, Brasil</p>
+                        </div>
+                    </div>
 
-                <div class="availability">
-                    <span class="dot available"></span> Disponível para novos projetos
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                        <div class="contact-detail">
+                            <span class="label">Redes Sociais</span>
+                            <div class="social-links">
+                                <a href="https://github.com/leonhardc" target="_blank" rel="noopener" title="GitHub">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/leonardorcost/" target="_blank" rel="noopener" title="LinkedIn">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://twitter.com" target="_blank" rel="noopener" title="Twitter">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="availability-badge">
+                        <span class="pulse-dot"></span>
+                        <span>Disponível para novos projetos</span>
+                    </div>
                 </div>
             </div>
 
@@ -342,9 +374,56 @@
 
     <!-- Footer -->
     <footer class="site-footer">
-        <div class="container footer-inner">
-            <div class="copyright">© <span id="year"></span> Leonardo Rodrigues. Todos os direitos reservados.</div>
-            <div class="made">Feito com ♥ e muito código</div>
+        <div class="container footer-content">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a class="brand" href="#home">
+                        <span class="gt">&lt;</span><span>Dev</span><span class="gt">/&gt;</span>
+                    </a>
+                    <p class="footer-tagline">Desenvolvedor Full Stack apaixonado por criar soluções inovadoras.</p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navegação</h4>
+                        <ul>
+                            <li><a href="#home">Início</a></li>
+                            <li><a href="#about">Sobre</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projetos</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Contato</h4>
+                        <ul>
+                            <li><a href="mailto:costa.leonardorodrigues@gmail.com">Email</a></li>
+                            <li><a href="https://github.com/leonhardc" target="_blank" rel="noopener">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/leonardorcost/" target="_blank" rel="noopener">LinkedIn</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Social</h4>
+                        <div class="footer-socials">
+                            <a href="https://github.com/leonhardc" target="_blank" rel="noopener" title="GitHub">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/leonardorcost/" target="_blank" rel="noopener" title="LinkedIn">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" rel="noopener" title="Twitter">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">© <span id="year"></span> Leonardo Rodrigues. Todos os direitos reservados.</div>
+                <div class="made">Feito com <span class="heart">♥</span> e muito código</div>
+            </div>
         </div>
     </footer>
 
